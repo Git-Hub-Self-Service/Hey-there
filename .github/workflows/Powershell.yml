@@ -1,3 +1,7 @@
+- name: PowerShell script
+  uses: Amadevus/pwsh-script@v2.0.3
+
+
 PARAM (
     [Parameter(Mandatory = $False, Position = 0)]
     [String] $RepositoryName='CreateFromActions',
