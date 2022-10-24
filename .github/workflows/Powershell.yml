@@ -1,6 +1,8 @@
 - name: PowerShell script
   uses: Amadevus/pwsh-script@v2.0.3
-
+with:
+    script: |
+      Write-ActionDebug "Visible only when ACTIONS_STEP_DEBUG secret is set"
 
 PARAM (
     [Parameter(Mandatory = $False, Position = 0)]
