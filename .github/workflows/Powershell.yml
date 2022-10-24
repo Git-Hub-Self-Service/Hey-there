@@ -1,5 +1,4 @@
-PARAM
-(
+PARAM (
     [Parameter(Mandatory = $False, Position = 0)]
     [String] $RepositoryName='CreateFromActions',
     [String] $Org='Git-Hub-Self-Service'
